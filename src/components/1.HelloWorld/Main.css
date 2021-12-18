@@ -1,0 +1,11 @@
+.first {
+    background-color: skyblue;
+    text-align: center;
+  }
+  .first .title, .first .source{
+    background-color: black;
+    color: white;
+  }
+  .first hr{
+    border: 1px solid black;
+  }

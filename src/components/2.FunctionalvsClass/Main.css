@@ -1,0 +1,28 @@
+.second {
+    background-color: skyblue;
+    text-align: center;
+  }
+  .second .title, .second .source{
+    background-color: black;
+    color: white;
+  }
+  .second hr{
+    border: 1px solid black;
+  }
+
+  .second .function-vs-class{
+      background-color: #1E1E1E;
+      display: flex;
+  }
+
+  .function-vs-class div{
+      color: skyblue;
+      flex: 1;
+  }
+  
+  .function-vs-class img{
+      margin: 4px 0;
+      border-radius: 10px;
+      border: 1px double skyblue;
+      padding: 5px;
+  }
