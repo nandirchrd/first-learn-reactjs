@@ -1,7 +1,5 @@
 import React from "react";
-import './Main.css'
-import GambarDua from "./img/functional.png"
-import GambarSatu from "./img/class.png"
+import './Main.css';
 import HelloClass from './HelloClass';
 import HelloFunc from './HelloFunc';
 

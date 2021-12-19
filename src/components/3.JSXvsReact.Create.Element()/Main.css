@@ -1,16 +1,21 @@
-.second {
+.third {
     background-color: skyblue;
     text-align: center;
   }
-  .second .title, .second .source{
-    background-color: darkslategrey;
+  .third .title, .third .source{
+    background-color: darkturquoise;
     color: whitesmoke;
   }
-  .second hr{
+  .third hr{
     border: 1px solid black;
   }
 
-  .second .function-vs-class{
+  .Hello{
+    color: black;
+    background-color: rgb(0, 244, 248);
+  }
+
+  .third .function-vs-class{
       background-color: #1E1E1E;
       display: flex;
   }
@@ -21,6 +26,8 @@
   }
   
   .function-vs-class img{
+      width: 500px;
+      height: 300px;
       margin: 4px 0;
       border-radius: 10px;
       border: 1px double skyblue;
