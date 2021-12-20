@@ -6,7 +6,9 @@ import './App.css';
 // import Main4 from './components/4.PropsState/Main';
 // import Destructuring from './components/5.Destructuring/Destructuring';
 // import EventHandling from './components/6.EventHandling/EventHandling';
-import ParentComponent from './components/7.MethodAsProps/ParentComponent';
+// import ParentComponent from './components/7.MethodAsProps/ParentComponent';
+// import Login from './components/8.ConditionalRendering/FuncLogin';
+import NameList from './components/9.ListRenderingKeys/NameList';
 
 function App() {
   return (
@@ -18,9 +20,13 @@ function App() {
       <Main3></Main3>
       <br/>
       <Destructuring name="Gyda" gender="female" age="19 Years Old">This is children</Destructuring>
+      <br/>
+      <ParentComponent></ParentComponent>
+      <br/>
+      <Login></Login>
       <br/> */}
 
-      <ParentComponent></ParentComponent>
+      <NameList></NameList>
     </Fragment>
   );
 }
